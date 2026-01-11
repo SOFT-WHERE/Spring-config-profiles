@@ -1,3 +1,11 @@
 spring:
   application:
     name: config-profiles
+  profiles:
+    active: prod
+
+build:
+  id: 122
+  version: 1.2.0
+  name: "default-build"
+  type: "default build"
