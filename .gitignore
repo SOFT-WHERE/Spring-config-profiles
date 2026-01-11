@@ -4,6 +4,15 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
+# Environment Variables
+.env
+.env.*
+!*.example
+secrets/
+
+
+
 ### STS ###
 .apt_generated
 .classpath
