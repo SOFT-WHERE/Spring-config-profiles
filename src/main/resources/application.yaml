@@ -3,11 +3,17 @@ spring:
     name: config-profiles
   config:
     import: optional:file:.env[.properties]
-  profiles:
-    active: prod
+#  profiles:
+#    active: prod
 
 build:
-  id: 122
-  version: 1.2.0
-  name: "default-build"
-  type: "default build"
+  id: 1010
+  version: 10.2.3
+  name: "appliaction build"
+  type: "app build"
+
+#build:
+#  id: ${ID}
+#  version: ${VERSION}
+#  name: ${NAME}
+
