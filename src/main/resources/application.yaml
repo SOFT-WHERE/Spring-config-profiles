@@ -6,14 +6,14 @@ spring:
 #  profiles:
 #    active: prod
 
-build:
-  id: 1010
-  version: 10.2.3
-  name: "appliaction build"
-  type: "app build"
-
 #build:
-#  id: ${ID}
-#  version: ${VERSION}
-#  name: ${NAME}
+#  id: 1010
+#  version: 10.2.3
+#  name: "application build"
+#  type: "app build"
+
+build:
+  id: ${ID}
+  version: ${VERSION}
+  name: ${NAME}
 
